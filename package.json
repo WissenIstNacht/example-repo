@@ -1,0 +1,14 @@
+{
+	"name": "test-monorepo",
+	"version": "0.1.0",
+	"description": "testing workspaces for mono repo",
+	"main": "index.js",
+	"repository": "https://github.com/wissenistnacht/test-monorepo",
+	"author": "me",
+	"license": "MIT",
+	"private": true,
+	"workspaces": [
+		"packages/*"
+	],
+	"scripts": {}
+}
